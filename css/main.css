@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 4000px;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/p1.jpeg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.home .nav {
+    background-color: rgba(0, 0, 0, 0.6);
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home .nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.home .nav ul li {
+
+    margin: 15px;
+}
+
+.home .nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 19px;
+}
+
+.home .nav ul .logo {
+
+}
+
+.home .nav  img {
+    width: 90px;
+    margin: 15px;
+}
+
+.home .layout {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.706);
+}
+
+/* ====== End Nav Bar */
+.home .caption {
+
+    text-align: center;
+}
+
+.home .caption h1 {
+    font-family: Arial;
+    font-size: 50px;
+    color: wheat;
+    padding: 40px 0px;
+}
+
+.home .caption button {
+    margin: 20px;
+    padding: 10px 0px;
+    width: 20%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.home .caption .btn1 {
+    background-color: rgb(227, 96, 96);
+}
+
+.home .caption .btn2 {
+    background-color: rgb(17, 107, 156);
+}
+
+/* ====== End Home ======== */
+
+#about {
+    background-image: url(../images/about.jpeg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.aboutUs {
+    padding: 50px 0px;
+    height: 100vh;
+}
+
+.aboutUs .about-header {
+    text-align: center;
+}
+
+.aboutUs .about-header h1 {
+    font-size: 40px;
+    color: white;
+
+}
+
+.aboutUs .about-header .hr {
+    width: 25%;
+    height: 4px;
+    background-color: red;
+    margin: 10px auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px red;
+}
+
+.aboutUs .about-header hr {
+    margin: 10px auto;
+    border-color: red;
+}
+
+.aboutUs .about-header .hr1 {
+    width: 20%;
+}
+
+.aboutUs .about-header .hr2 {
+    width: 10%;
+}
+
+.aboutUs .aboutImage {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.aboutUs .aboutImage img {
+    width: 60%;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.aboutUs .aboutInfo {
+    width: 50%;
+    text-align: center;
+    color: white;
+    float: left;
+}
+
+.aboutUs .aboutInfo h2 {
+    font-size: 40px;
+
+    margin: 90px 0px 40px 0px;
+}
+
+.aboutUs .aboutInfo p {
+    padding: 40px;
+    font-size: 20px;
+}
+
+i {
+    font-size: 50px;
+    margin: 0px 10px;
+    color: red;
+    text-shadow: 5px 5px 5px black;
+}
